@@ -1,0 +1,72 @@
+/* Estilos generales para la página de productos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.productos-lista {
+    padding: 20px;
+    text-align: center;
+}
+
+.productos-lista h2 {
+    margin-bottom: 20px;
+}
+
+.producto-detalle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+.producto button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
